@@ -1,0 +1,5 @@
+name: polypolish
+channels:
+  - bioconda
+dependencies:
+  - polypolish

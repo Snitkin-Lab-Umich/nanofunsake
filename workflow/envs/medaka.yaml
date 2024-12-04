@@ -1,0 +1,6 @@
+name: medaka
+channels:
+  - bioconda
+dependencies:
+  - medaka
+  - bcftools
