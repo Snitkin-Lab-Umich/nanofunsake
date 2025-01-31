@@ -331,7 +331,7 @@ rule nanopore_medaka:
     #log:
     #    "logs/{prefix}/medaka/{sample}/{sample}.log"
     singularity:
-        "docker://staphb/medaka:1.2.0"
+        "docker://staphb/medaka:2.0.1"
     threads: 8
     resources:
         mem_mb = 15000,
