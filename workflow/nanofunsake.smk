@@ -342,7 +342,7 @@ rule nanopore_medaka:
     #    "bcftools"
     shell:
         """
-        medaka_consensus -i {input.trimmed} -d {input.flye_assembly} -o {params.medaka_out_dir} -t {threads} -m r941_min_high_g303 &&
+        medaka_consensus -i {input.trimmed} -d {input.flye_assembly} -o {params.medaka_out_dir} -t {threads} &&
         cp {params.medaka_out_dir}/consensus.fasta {params.medaka_out_dir}/{params.sample}_medaka.fasta 
         """ 
 
