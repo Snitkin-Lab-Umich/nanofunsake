@@ -1,4 +1,9 @@
-sample_id
-Lojek_D5A_1
-Lojek_D5A_2
-Lojek_D5A_3
+ShortRead_sample_id,LongRead_sample_id,ShortRead_isolate_name,LongRead_isolate_name
+UM_Caur_2,UM_Caur_nano_11,CaTO_704,CaTO_704
+UM_Caur_3,UM_Caur_nano_3,CaTO_705,CaTO_705
+UM_Caur_8,UM_Caur_nano_8,CaTO_711,CaTO_711
+UM_Caur_4,UM_Caur_nano_4,CaTO_707,CaTO_707
+UM_Caur_9,UM_Caur_nano_13,CaTO_712,CaTO_712
+UM_Caur_1,UM_Caur_nano_1,CaTO_703,CaTO_703
+UM_Caur_7,UM_Caur_nano_7,CaTO_710,CaTO_710
+UM_Caur_10,UM_Caur_nano_10,CaTO_713,CaTO_713

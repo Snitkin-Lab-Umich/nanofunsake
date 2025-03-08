@@ -11,11 +11,12 @@ cores: 16
 jobs: 10
 max-jobs-per-second: 1
 max-status-checks-per-second: 1
+retries: 1
 
 # cluster settings
 slurm: True
 default-resources:
-  - slurm_account=esnitkin0
+  - slurm_account=esnitkin1
   - slurm_partition=standard
   - runtime=120
   - mem_mb=15000
