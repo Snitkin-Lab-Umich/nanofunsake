@@ -76,10 +76,10 @@ def make_dict(infile):
     return(d)
 
 if __name__ == "__main__":
-    short_read_metadata = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/metadata/sample_lookup/UM_illumina_sample_lookup.txt'
-    long_read_metadata = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/metadata/sample_lookup/UM_ONT_sample_lookup.txt'
-    short_read_batch_name = '2025_01_29_UM_illumina'
-    long_read_batch_name = '2025_01_29_UM_ONT'
+    short_read_metadata = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/metadata/sample_lookup/chicago_illumina_sample_lookup_V2.txt'
+    long_read_metadata = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/metadata/sample_lookup/chicago_ONT_sample_lookup.txt'
+    short_read_batch_name = '2025_02_05_chicago_illumina'
+    long_read_batch_name = '2025_02_05_chicago_ONT'
     # only the text above needs editing
     short_read_pass_dir = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/illumina_fastq/' + short_read_batch_name + '/passed_qc_samples/'
     long_read_pass_dir = '/nfs/turbo/umms-esnitkin/Project_Cauris/Sequence_data/ONT/' + long_read_batch_name + '/passed_qc_samples/'

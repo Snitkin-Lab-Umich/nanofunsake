@@ -99,7 +99,7 @@ rule illumina_trimmomatic_pe:
     singularity:
         "docker://staphb/trimmomatic:0.39"
     resources:
-        mem_mb = 5000,
+        mem_mb = 10000,
         runtime = 30
     shell:
         """
